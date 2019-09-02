@@ -1,0 +1,1707 @@
+EESchema Schematic File Version 4
+LIBS:hardware-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_Small D8
+U 1 1 5C84C954
+P 4600 2900
+F 0 "D8" V 4700 3050 50  0000 R CNN
+F 1 "RED" V 4500 3100 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 2900 50  0001 C CNN
+F 3 "~" V 4600 2900 50  0001 C CNN
+	1    4600 2900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J2
+U 1 1 5C84CE38
+P 2150 3200
+F 0 "J2" H 2200 2675 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 2200 2766 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 2150 3200 50  0001 C CNN
+F 3 "~" H 2150 3200 50  0001 C CNN
+	1    2150 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J1
+U 1 1 5C84CECE
+P 3200 3200
+F 0 "J1" H 3250 2675 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 3250 2766 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Horizontal" H 3200 3200 50  0001 C CNN
+F 3 "~" H 3200 3200 50  0001 C CNN
+	1    3200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 5C84D1A5
+P 4400 3300
+F 0 "Q1" H 4300 3450 50  0000 L CNN
+F 1 "2N3904" H 4150 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4400 3300 50  0001 L CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5C84D360
+P 4300 1000
+F 0 "R2" V 4200 1000 50  0000 C CNN
+F 1 "1K" V 4400 1000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 1000 50  0001 C CNN
+F 3 "~" H 4300 1000 50  0001 C CNN
+	1    4300 1000
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 1000 0    50   ~ 0
+ROW2
+Wire Wire Line
+	3950 1000 4200 1000
+$Comp
+L Device:LED_Small D7
+U 1 1 5C84D98F
+P 4600 2600
+F 0 "D7" V 4700 2550 50  0000 R CNN
+F 1 "RED" V 4500 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 2600 50  0001 C CNN
+F 3 "~" V 4600 2600 50  0001 C CNN
+	1    4600 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D6
+U 1 1 5C84D9C9
+P 4600 2300
+F 0 "D6" V 4700 2250 50  0000 R CNN
+F 1 "RED" V 4500 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 2300 50  0001 C CNN
+F 3 "~" V 4600 2300 50  0001 C CNN
+	1    4600 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3100 4500 3000
+Wire Wire Line
+	4500 2400 4600 2400
+Wire Wire Line
+	4600 2700 4500 2700
+Connection ~ 4500 2700
+Wire Wire Line
+	4500 2700 4500 2400
+Wire Wire Line
+	4500 3000 4600 3000
+Connection ~ 4500 3000
+$Comp
+L Device:LED_Small D5
+U 1 1 5C84DC22
+P 4600 2000
+F 0 "D5" V 4700 1950 50  0000 R CNN
+F 1 "RED" V 4500 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 2000 50  0001 C CNN
+F 3 "~" V 4600 2000 50  0001 C CNN
+	1    4600 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D4
+U 1 1 5C84DC58
+P 4600 1700
+F 0 "D4" V 4700 1650 50  0000 R CNN
+F 1 "RED" V 4500 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 1700 50  0001 C CNN
+F 3 "~" V 4600 1700 50  0001 C CNN
+	1    4600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D3
+U 1 1 5C84DC90
+P 4600 1400
+F 0 "D3" V 4700 1350 50  0000 R CNN
+F 1 "RED" V 4500 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 1400 50  0001 C CNN
+F 3 "~" V 4600 1400 50  0001 C CNN
+	1    4600 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D2
+U 1 1 5C84DCEC
+P 4600 1100
+F 0 "D2" V 4700 1050 50  0000 R CNN
+F 1 "RED" V 4500 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 1100 50  0001 C CNN
+F 3 "~" V 4600 1100 50  0001 C CNN
+	1    4600 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D1
+U 1 1 5C84DD2C
+P 4600 800
+F 0 "D1" V 4700 750 50  0000 R CNN
+F 1 "RED" V 4500 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 4600 800 50  0001 C CNN
+F 3 "~" V 4600 800 50  0001 C CNN
+	1    4600 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 2400 4500 2100
+Wire Wire Line
+	4500 900  4600 900 
+Connection ~ 4500 2400
+Wire Wire Line
+	4600 1200 4500 1200
+Connection ~ 4500 1200
+Wire Wire Line
+	4500 1200 4500 900 
+Wire Wire Line
+	4600 1500 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4500 1200
+Wire Wire Line
+	4600 1800 4500 1800
+Connection ~ 4500 1800
+Wire Wire Line
+	4500 1800 4500 1500
+Wire Wire Line
+	4600 2100 4500 2100
+Connection ~ 4500 2100
+Wire Wire Line
+	4500 2100 4500 1800
+Wire Wire Line
+	4400 1000 4600 1000
+$Comp
+L Device:R_Small R1
+U 1 1 5C84FC86
+P 4300 700
+F 0 "R1" V 4200 700 50  0000 C CNN
+F 1 "1K" V 4400 700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 700 50  0001 C CNN
+F 3 "~" H 4300 700 50  0001 C CNN
+	1    4300 700 
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 700  0    50   ~ 0
+ROW1
+Wire Wire Line
+	3950 700  4200 700 
+Wire Wire Line
+	4400 700  4600 700 
+$Comp
+L Device:R_Small R3
+U 1 1 5C84FFDB
+P 4300 1300
+F 0 "R3" V 4200 1300 50  0000 C CNN
+F 1 "1K" V 4400 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 1300 50  0001 C CNN
+F 3 "~" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 1300 0    50   ~ 0
+ROW3
+Wire Wire Line
+	3950 1300 4200 1300
+Wire Wire Line
+	4400 1300 4600 1300
+$Comp
+L Device:R_Small R4
+U 1 1 5C850436
+P 4300 1600
+F 0 "R4" V 4200 1600 50  0000 C CNN
+F 1 "1K" V 4400 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 1600 50  0001 C CNN
+F 3 "~" H 4300 1600 50  0001 C CNN
+	1    4300 1600
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 1600 0    50   ~ 0
+ROW4
+Wire Wire Line
+	3950 1600 4200 1600
+Wire Wire Line
+	4400 1600 4600 1600
+$Comp
+L Device:R_Small R5
+U 1 1 5C8508ED
+P 4300 1900
+F 0 "R5" V 4200 1900 50  0000 C CNN
+F 1 "1K" V 4400 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 1900 50  0001 C CNN
+F 3 "~" H 4300 1900 50  0001 C CNN
+	1    4300 1900
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 1900 0    50   ~ 0
+ROW5
+Wire Wire Line
+	3950 1900 4200 1900
+Wire Wire Line
+	4400 1900 4600 1900
+$Comp
+L Device:R_Small R6
+U 1 1 5C850E7A
+P 4300 2200
+F 0 "R6" V 4200 2200 50  0000 C CNN
+F 1 "1K" V 4400 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2200 50  0001 C CNN
+F 3 "~" H 4300 2200 50  0001 C CNN
+	1    4300 2200
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 2200 0    50   ~ 0
+ROW6
+Wire Wire Line
+	3950 2200 4200 2200
+Wire Wire Line
+	4400 2200 4600 2200
+$Comp
+L Device:R_Small R7
+U 1 1 5C851537
+P 4300 2500
+F 0 "R7" V 4200 2500 50  0000 C CNN
+F 1 "1K" V 4400 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2500 50  0001 C CNN
+F 3 "~" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 2500 0    50   ~ 0
+ROW7
+Wire Wire Line
+	3950 2500 4200 2500
+Wire Wire Line
+	4400 2500 4600 2500
+$Comp
+L Device:R_Small R8
+U 1 1 5C851C7C
+P 4300 2800
+F 0 "R8" V 4200 2800 50  0000 C CNN
+F 1 "1K" V 4400 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4300 2800 50  0001 C CNN
+F 3 "~" H 4300 2800 50  0001 C CNN
+	1    4300 2800
+	0    -1   -1   0   
+$EndComp
+Text Label 3950 2800 0    50   ~ 0
+ROW8
+Wire Wire Line
+	3950 2800 4200 2800
+Text Label 3950 3300 0    50   ~ 0
+COL1
+Wire Wire Line
+	3950 3300 4200 3300
+$Comp
+L Device:LED_Small D16
+U 1 1 5C853690
+P 5250 2900
+F 0 "D16" V 5350 2850 50  0000 R CNN
+F 1 "RED" V 5150 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 2900 50  0001 C CNN
+F 3 "~" V 5250 2900 50  0001 C CNN
+	1    5250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q2
+U 1 1 5C853697
+P 5050 3300
+F 0 "Q2" H 4950 3450 50  0000 L CNN
+F 1 "2N3904" H 4800 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5050 3300 50  0001 L CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D15
+U 1 1 5C85369E
+P 5250 2600
+F 0 "D15" V 5350 2550 50  0000 R CNN
+F 1 "RED" V 5150 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 2600 50  0001 C CNN
+F 3 "~" V 5250 2600 50  0001 C CNN
+	1    5250 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D14
+U 1 1 5C8536A5
+P 5250 2300
+F 0 "D14" V 5350 2250 50  0000 R CNN
+F 1 "RED" V 5150 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 2300 50  0001 C CNN
+F 3 "~" V 5250 2300 50  0001 C CNN
+	1    5250 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 3100 5150 3000
+Wire Wire Line
+	5150 2400 5250 2400
+Wire Wire Line
+	5250 2700 5150 2700
+Connection ~ 5150 2700
+Wire Wire Line
+	5150 2700 5150 2400
+Wire Wire Line
+	5150 3000 5250 3000
+Connection ~ 5150 3000
+Wire Wire Line
+	5150 3000 5150 2700
+$Comp
+L Device:LED_Small D13
+U 1 1 5C8536B4
+P 5250 2000
+F 0 "D13" V 5350 1950 50  0000 R CNN
+F 1 "RED" V 5150 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 2000 50  0001 C CNN
+F 3 "~" V 5250 2000 50  0001 C CNN
+	1    5250 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D12
+U 1 1 5C8536BB
+P 5250 1700
+F 0 "D12" V 5350 1650 50  0000 R CNN
+F 1 "RED" V 5150 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 1700 50  0001 C CNN
+F 3 "~" V 5250 1700 50  0001 C CNN
+	1    5250 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D11
+U 1 1 5C8536C2
+P 5250 1400
+F 0 "D11" V 5350 1350 50  0000 R CNN
+F 1 "RED" V 5150 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 1400 50  0001 C CNN
+F 3 "~" V 5250 1400 50  0001 C CNN
+	1    5250 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D10
+U 1 1 5C8536C9
+P 5250 1100
+F 0 "D10" V 5350 1050 50  0000 R CNN
+F 1 "RED" V 5150 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 1100 50  0001 C CNN
+F 3 "~" V 5250 1100 50  0001 C CNN
+	1    5250 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D9
+U 1 1 5C8536D0
+P 5250 800
+F 0 "D9" V 5350 750 50  0000 R CNN
+F 1 "RED" V 5150 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5250 800 50  0001 C CNN
+F 3 "~" V 5250 800 50  0001 C CNN
+	1    5250 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 2400 5150 2100
+Wire Wire Line
+	5150 900  5250 900 
+Connection ~ 5150 2400
+Wire Wire Line
+	5250 1200 5150 1200
+Connection ~ 5150 1200
+Wire Wire Line
+	5150 1200 5150 900 
+Wire Wire Line
+	5250 1500 5150 1500
+Connection ~ 5150 1500
+Wire Wire Line
+	5150 1500 5150 1200
+Wire Wire Line
+	5250 1800 5150 1800
+Connection ~ 5150 1800
+Wire Wire Line
+	5150 1800 5150 1500
+Wire Wire Line
+	5250 2100 5150 2100
+Connection ~ 5150 2100
+Wire Wire Line
+	5150 2100 5150 1800
+Text Label 4650 3300 0    50   ~ 0
+COL2
+Wire Wire Line
+	4650 3300 4850 3300
+$Comp
+L Device:LED_Small D24
+U 1 1 5C85C5FE
+P 5900 2900
+F 0 "D24" V 6000 2850 50  0000 R CNN
+F 1 "RED" V 5800 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 2900 50  0001 C CNN
+F 3 "~" V 5900 2900 50  0001 C CNN
+	1    5900 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q3
+U 1 1 5C85C605
+P 5700 3300
+F 0 "Q3" H 5600 3450 50  0000 L CNN
+F 1 "2N3904" H 5450 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5900 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5700 3300 50  0001 L CNN
+	1    5700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D23
+U 1 1 5C85C60C
+P 5900 2600
+F 0 "D23" V 6000 2550 50  0000 R CNN
+F 1 "RED" V 5800 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 2600 50  0001 C CNN
+F 3 "~" V 5900 2600 50  0001 C CNN
+	1    5900 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D22
+U 1 1 5C85C613
+P 5900 2300
+F 0 "D22" V 6000 2250 50  0000 R CNN
+F 1 "RED" V 5800 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 2300 50  0001 C CNN
+F 3 "~" V 5900 2300 50  0001 C CNN
+	1    5900 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3100 5800 3000
+Wire Wire Line
+	5800 2400 5900 2400
+Wire Wire Line
+	5900 2700 5800 2700
+Connection ~ 5800 2700
+Wire Wire Line
+	5800 2700 5800 2400
+Wire Wire Line
+	5800 3000 5900 3000
+Connection ~ 5800 3000
+Wire Wire Line
+	5800 3000 5800 2700
+$Comp
+L Device:LED_Small D21
+U 1 1 5C85C622
+P 5900 2000
+F 0 "D21" V 6000 1950 50  0000 R CNN
+F 1 "RED" V 5800 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 2000 50  0001 C CNN
+F 3 "~" V 5900 2000 50  0001 C CNN
+	1    5900 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D20
+U 1 1 5C85C629
+P 5900 1700
+F 0 "D20" V 6000 1650 50  0000 R CNN
+F 1 "RED" V 5800 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 1700 50  0001 C CNN
+F 3 "~" V 5900 1700 50  0001 C CNN
+	1    5900 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D19
+U 1 1 5C85C630
+P 5900 1400
+F 0 "D19" V 6000 1350 50  0000 R CNN
+F 1 "RED" V 5800 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 1400 50  0001 C CNN
+F 3 "~" V 5900 1400 50  0001 C CNN
+	1    5900 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D18
+U 1 1 5C85C637
+P 5900 1100
+F 0 "D18" V 6000 1050 50  0000 R CNN
+F 1 "RED" V 5800 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 1100 50  0001 C CNN
+F 3 "~" V 5900 1100 50  0001 C CNN
+	1    5900 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D17
+U 1 1 5C85C63E
+P 5900 800
+F 0 "D17" V 6000 750 50  0000 R CNN
+F 1 "RED" V 5800 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 5900 800 50  0001 C CNN
+F 3 "~" V 5900 800 50  0001 C CNN
+	1    5900 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2400 5800 2100
+Wire Wire Line
+	5800 900  5900 900 
+Connection ~ 5800 2400
+Wire Wire Line
+	5900 1200 5800 1200
+Connection ~ 5800 1200
+Wire Wire Line
+	5800 1200 5800 900 
+Wire Wire Line
+	5900 1500 5800 1500
+Connection ~ 5800 1500
+Wire Wire Line
+	5800 1500 5800 1200
+Wire Wire Line
+	5900 1800 5800 1800
+Connection ~ 5800 1800
+Wire Wire Line
+	5800 1800 5800 1500
+Wire Wire Line
+	5900 2100 5800 2100
+Connection ~ 5800 2100
+Wire Wire Line
+	5800 2100 5800 1800
+Text Label 5300 3300 0    50   ~ 0
+COL3
+$Comp
+L Device:LED_Small D32
+U 1 1 5C85DA63
+P 6550 2900
+F 0 "D32" V 6650 2850 50  0000 R CNN
+F 1 "RED" V 6450 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 2900 50  0001 C CNN
+F 3 "~" V 6550 2900 50  0001 C CNN
+	1    6550 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q4
+U 1 1 5C85DA6A
+P 6350 3300
+F 0 "Q4" H 6250 3450 50  0000 L CNN
+F 1 "2N3904" H 6100 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6350 3300 50  0001 L CNN
+	1    6350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D31
+U 1 1 5C85DA71
+P 6550 2600
+F 0 "D31" V 6650 2550 50  0000 R CNN
+F 1 "RED" V 6450 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 2600 50  0001 C CNN
+F 3 "~" V 6550 2600 50  0001 C CNN
+	1    6550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D30
+U 1 1 5C85DA78
+P 6550 2300
+F 0 "D30" V 6650 2250 50  0000 R CNN
+F 1 "RED" V 6450 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 2300 50  0001 C CNN
+F 3 "~" V 6550 2300 50  0001 C CNN
+	1    6550 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 3100 6450 3000
+Wire Wire Line
+	6450 2400 6550 2400
+Wire Wire Line
+	6550 2700 6450 2700
+Connection ~ 6450 2700
+Wire Wire Line
+	6450 2700 6450 2400
+Wire Wire Line
+	6450 3000 6550 3000
+Connection ~ 6450 3000
+Wire Wire Line
+	6450 3000 6450 2700
+$Comp
+L Device:LED_Small D29
+U 1 1 5C85DA87
+P 6550 2000
+F 0 "D29" V 6650 1950 50  0000 R CNN
+F 1 "RED" V 6450 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 2000 50  0001 C CNN
+F 3 "~" V 6550 2000 50  0001 C CNN
+	1    6550 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D28
+U 1 1 5C85DA8E
+P 6550 1700
+F 0 "D28" V 6650 1650 50  0000 R CNN
+F 1 "RED" V 6450 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 1700 50  0001 C CNN
+F 3 "~" V 6550 1700 50  0001 C CNN
+	1    6550 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D27
+U 1 1 5C85DA95
+P 6550 1400
+F 0 "D27" V 6650 1350 50  0000 R CNN
+F 1 "RED" V 6450 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 1400 50  0001 C CNN
+F 3 "~" V 6550 1400 50  0001 C CNN
+	1    6550 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D26
+U 1 1 5C85DA9C
+P 6550 1100
+F 0 "D26" V 6650 1050 50  0000 R CNN
+F 1 "RED" V 6450 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 1100 50  0001 C CNN
+F 3 "~" V 6550 1100 50  0001 C CNN
+	1    6550 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D25
+U 1 1 5C85DAA3
+P 6550 800
+F 0 "D25" V 6650 750 50  0000 R CNN
+F 1 "RED" V 6450 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 6550 800 50  0001 C CNN
+F 3 "~" V 6550 800 50  0001 C CNN
+	1    6550 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 2400 6450 2100
+Wire Wire Line
+	6450 900  6550 900 
+Connection ~ 6450 2400
+Wire Wire Line
+	6550 1200 6450 1200
+Connection ~ 6450 1200
+Wire Wire Line
+	6450 1200 6450 900 
+Wire Wire Line
+	6550 1500 6450 1500
+Connection ~ 6450 1500
+Wire Wire Line
+	6450 1500 6450 1200
+Wire Wire Line
+	6550 1800 6450 1800
+Connection ~ 6450 1800
+Wire Wire Line
+	6450 1800 6450 1500
+Wire Wire Line
+	6550 2100 6450 2100
+Connection ~ 6450 2100
+Wire Wire Line
+	6450 2100 6450 1800
+Text Label 5950 3300 0    50   ~ 0
+COL4
+Wire Wire Line
+	5950 3300 6150 3300
+$Comp
+L Device:LED_Small D40
+U 1 1 5C8621C4
+P 7200 2900
+F 0 "D40" V 7300 2850 50  0000 R CNN
+F 1 "RED" V 7100 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 2900 50  0001 C CNN
+F 3 "~" V 7200 2900 50  0001 C CNN
+	1    7200 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q5
+U 1 1 5C8621CB
+P 7000 3300
+F 0 "Q5" H 6900 3450 50  0000 L CNN
+F 1 "2N3904" H 6750 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7200 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7000 3300 50  0001 L CNN
+	1    7000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D39
+U 1 1 5C8621D2
+P 7200 2600
+F 0 "D39" V 7300 2550 50  0000 R CNN
+F 1 "RED" V 7100 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 2600 50  0001 C CNN
+F 3 "~" V 7200 2600 50  0001 C CNN
+	1    7200 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D38
+U 1 1 5C8621D9
+P 7200 2300
+F 0 "D38" V 7300 2250 50  0000 R CNN
+F 1 "RED" V 7100 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 2300 50  0001 C CNN
+F 3 "~" V 7200 2300 50  0001 C CNN
+	1    7200 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3100 7100 3000
+Wire Wire Line
+	7100 2400 7200 2400
+Wire Wire Line
+	7200 2700 7100 2700
+Connection ~ 7100 2700
+Wire Wire Line
+	7100 2700 7100 2400
+Wire Wire Line
+	7100 3000 7200 3000
+Connection ~ 7100 3000
+Wire Wire Line
+	7100 3000 7100 2700
+$Comp
+L Device:LED_Small D37
+U 1 1 5C8621E8
+P 7200 2000
+F 0 "D37" V 7300 1950 50  0000 R CNN
+F 1 "RED" V 7100 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 2000 50  0001 C CNN
+F 3 "~" V 7200 2000 50  0001 C CNN
+	1    7200 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D36
+U 1 1 5C8621EF
+P 7200 1700
+F 0 "D36" V 7300 1650 50  0000 R CNN
+F 1 "RED" V 7100 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 1700 50  0001 C CNN
+F 3 "~" V 7200 1700 50  0001 C CNN
+	1    7200 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D35
+U 1 1 5C8621F6
+P 7200 1400
+F 0 "D35" V 7300 1350 50  0000 R CNN
+F 1 "RED" V 7100 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 1400 50  0001 C CNN
+F 3 "~" V 7200 1400 50  0001 C CNN
+	1    7200 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D34
+U 1 1 5C8621FD
+P 7200 1100
+F 0 "D34" V 7300 1050 50  0000 R CNN
+F 1 "RED" V 7100 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 1100 50  0001 C CNN
+F 3 "~" V 7200 1100 50  0001 C CNN
+	1    7200 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D33
+U 1 1 5C862204
+P 7200 800
+F 0 "D33" V 7300 750 50  0000 R CNN
+F 1 "RED" V 7100 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7200 800 50  0001 C CNN
+F 3 "~" V 7200 800 50  0001 C CNN
+	1    7200 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2400 7100 2100
+Wire Wire Line
+	7100 900  7200 900 
+Connection ~ 7100 2400
+Wire Wire Line
+	7200 1200 7100 1200
+Connection ~ 7100 1200
+Wire Wire Line
+	7100 1200 7100 900 
+Wire Wire Line
+	7200 1500 7100 1500
+Connection ~ 7100 1500
+Wire Wire Line
+	7100 1500 7100 1200
+Wire Wire Line
+	7200 1800 7100 1800
+Connection ~ 7100 1800
+Wire Wire Line
+	7100 1800 7100 1500
+Wire Wire Line
+	7200 2100 7100 2100
+Connection ~ 7100 2100
+Wire Wire Line
+	7100 2100 7100 1800
+Text Label 6600 3300 0    50   ~ 0
+COL5
+Wire Wire Line
+	6600 3300 6800 3300
+$Comp
+L Device:LED_Small D48
+U 1 1 5C869CFF
+P 7850 2900
+F 0 "D48" V 7950 2850 50  0000 R CNN
+F 1 "RED" V 7750 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 2900 50  0001 C CNN
+F 3 "~" V 7850 2900 50  0001 C CNN
+	1    7850 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q6
+U 1 1 5C869D06
+P 7650 3300
+F 0 "Q6" H 7550 3450 50  0000 L CNN
+F 1 "2N3904" H 7400 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7850 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7650 3300 50  0001 L CNN
+	1    7650 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D47
+U 1 1 5C869D0D
+P 7850 2600
+F 0 "D47" V 7950 2550 50  0000 R CNN
+F 1 "RED" V 7750 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 2600 50  0001 C CNN
+F 3 "~" V 7850 2600 50  0001 C CNN
+	1    7850 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D46
+U 1 1 5C869D14
+P 7850 2300
+F 0 "D46" V 7950 2250 50  0000 R CNN
+F 1 "RED" V 7750 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 2300 50  0001 C CNN
+F 3 "~" V 7850 2300 50  0001 C CNN
+	1    7850 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 3100 7750 3000
+Wire Wire Line
+	7750 2400 7850 2400
+Wire Wire Line
+	7850 2700 7750 2700
+Connection ~ 7750 2700
+Wire Wire Line
+	7750 2700 7750 2400
+Wire Wire Line
+	7750 3000 7850 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	7750 3000 7750 2700
+$Comp
+L Device:LED_Small D45
+U 1 1 5C869D23
+P 7850 2000
+F 0 "D45" V 7950 1950 50  0000 R CNN
+F 1 "RED" V 7750 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 2000 50  0001 C CNN
+F 3 "~" V 7850 2000 50  0001 C CNN
+	1    7850 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D44
+U 1 1 5C869D2A
+P 7850 1700
+F 0 "D44" V 7950 1650 50  0000 R CNN
+F 1 "RED" V 7750 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 1700 50  0001 C CNN
+F 3 "~" V 7850 1700 50  0001 C CNN
+	1    7850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D43
+U 1 1 5C869D31
+P 7850 1400
+F 0 "D43" V 7950 1350 50  0000 R CNN
+F 1 "RED" V 7750 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 1400 50  0001 C CNN
+F 3 "~" V 7850 1400 50  0001 C CNN
+	1    7850 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D42
+U 1 1 5C869D38
+P 7850 1100
+F 0 "D42" V 7950 1050 50  0000 R CNN
+F 1 "RED" V 7750 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 1100 50  0001 C CNN
+F 3 "~" V 7850 1100 50  0001 C CNN
+	1    7850 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D41
+U 1 1 5C869D3F
+P 7850 800
+F 0 "D41" V 7950 750 50  0000 R CNN
+F 1 "RED" V 7750 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 7850 800 50  0001 C CNN
+F 3 "~" V 7850 800 50  0001 C CNN
+	1    7850 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2400 7750 2100
+Wire Wire Line
+	7750 900  7850 900 
+Connection ~ 7750 2400
+Wire Wire Line
+	7850 1200 7750 1200
+Connection ~ 7750 1200
+Wire Wire Line
+	7750 1200 7750 900 
+Wire Wire Line
+	7850 1500 7750 1500
+Connection ~ 7750 1500
+Wire Wire Line
+	7750 1500 7750 1200
+Wire Wire Line
+	7850 1800 7750 1800
+Connection ~ 7750 1800
+Wire Wire Line
+	7750 1800 7750 1500
+Wire Wire Line
+	7850 2100 7750 2100
+Connection ~ 7750 2100
+Wire Wire Line
+	7750 2100 7750 1800
+Text Label 7250 3300 0    50   ~ 0
+COL6
+Wire Wire Line
+	7250 3300 7450 3300
+$Comp
+L Device:LED_Small D56
+U 1 1 5C86CF3D
+P 8500 2900
+F 0 "D56" V 8600 2850 50  0000 R CNN
+F 1 "RED" V 8400 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 2900 50  0001 C CNN
+F 3 "~" V 8500 2900 50  0001 C CNN
+	1    8500 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q7
+U 1 1 5C86CF44
+P 8300 3300
+F 0 "Q7" H 8200 3450 50  0000 L CNN
+F 1 "2N3904" H 8050 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8500 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8300 3300 50  0001 L CNN
+	1    8300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D55
+U 1 1 5C86CF4B
+P 8500 2600
+F 0 "D55" V 8600 2550 50  0000 R CNN
+F 1 "RED" V 8400 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 2600 50  0001 C CNN
+F 3 "~" V 8500 2600 50  0001 C CNN
+	1    8500 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D54
+U 1 1 5C86CF52
+P 8500 2300
+F 0 "D54" V 8600 2250 50  0000 R CNN
+F 1 "RED" V 8400 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 2300 50  0001 C CNN
+F 3 "~" V 8500 2300 50  0001 C CNN
+	1    8500 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3100 8400 3000
+Wire Wire Line
+	8400 2400 8500 2400
+Wire Wire Line
+	8500 2700 8400 2700
+Connection ~ 8400 2700
+Wire Wire Line
+	8400 2700 8400 2400
+Wire Wire Line
+	8400 3000 8500 3000
+Connection ~ 8400 3000
+Wire Wire Line
+	8400 3000 8400 2700
+$Comp
+L Device:LED_Small D53
+U 1 1 5C86CF61
+P 8500 2000
+F 0 "D53" V 8600 1950 50  0000 R CNN
+F 1 "RED" V 8400 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 2000 50  0001 C CNN
+F 3 "~" V 8500 2000 50  0001 C CNN
+	1    8500 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D52
+U 1 1 5C86CF68
+P 8500 1700
+F 0 "D52" V 8600 1650 50  0000 R CNN
+F 1 "RED" V 8400 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 1700 50  0001 C CNN
+F 3 "~" V 8500 1700 50  0001 C CNN
+	1    8500 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D51
+U 1 1 5C86CF6F
+P 8500 1400
+F 0 "D51" V 8600 1350 50  0000 R CNN
+F 1 "RED" V 8400 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 1400 50  0001 C CNN
+F 3 "~" V 8500 1400 50  0001 C CNN
+	1    8500 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D50
+U 1 1 5C86CF76
+P 8500 1100
+F 0 "D50" V 8600 1050 50  0000 R CNN
+F 1 "RED" V 8400 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 1100 50  0001 C CNN
+F 3 "~" V 8500 1100 50  0001 C CNN
+	1    8500 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D49
+U 1 1 5C86CF7D
+P 8500 800
+F 0 "D49" V 8600 750 50  0000 R CNN
+F 1 "RED" V 8400 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 8500 800 50  0001 C CNN
+F 3 "~" V 8500 800 50  0001 C CNN
+	1    8500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 2400 8400 2100
+Wire Wire Line
+	8400 900  8500 900 
+Connection ~ 8400 2400
+Wire Wire Line
+	8500 1200 8400 1200
+Connection ~ 8400 1200
+Wire Wire Line
+	8400 1200 8400 900 
+Wire Wire Line
+	8500 1500 8400 1500
+Connection ~ 8400 1500
+Wire Wire Line
+	8400 1500 8400 1200
+Wire Wire Line
+	8500 1800 8400 1800
+Connection ~ 8400 1800
+Wire Wire Line
+	8400 1800 8400 1500
+Wire Wire Line
+	8500 2100 8400 2100
+Connection ~ 8400 2100
+Wire Wire Line
+	8400 2100 8400 1800
+Text Label 7900 3300 0    50   ~ 0
+COL7
+Wire Wire Line
+	7900 3300 8100 3300
+$Comp
+L Device:LED_Small D64
+U 1 1 5C870EE6
+P 9150 2900
+F 0 "D64" V 9250 2850 50  0000 R CNN
+F 1 "RED" V 9050 2850 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 2900 50  0001 C CNN
+F 3 "~" V 9150 2900 50  0001 C CNN
+	1    9150 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q8
+U 1 1 5C870EED
+P 8950 3300
+F 0 "Q8" H 8850 3450 50  0000 L CNN
+F 1 "2N3904" H 8700 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9150 3225 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8950 3300 50  0001 L CNN
+	1    8950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small D63
+U 1 1 5C870EF4
+P 9150 2600
+F 0 "D63" V 9250 2550 50  0000 R CNN
+F 1 "RED" V 9050 2550 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 2600 50  0001 C CNN
+F 3 "~" V 9150 2600 50  0001 C CNN
+	1    9150 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D62
+U 1 1 5C870EFB
+P 9150 2300
+F 0 "D62" V 9250 2250 50  0000 R CNN
+F 1 "RED" V 9050 2250 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 2300 50  0001 C CNN
+F 3 "~" V 9150 2300 50  0001 C CNN
+	1    9150 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 3100 9050 3000
+Wire Wire Line
+	9050 2400 9150 2400
+Wire Wire Line
+	9150 2700 9050 2700
+Connection ~ 9050 2700
+Wire Wire Line
+	9050 2700 9050 2400
+Wire Wire Line
+	9050 3000 9150 3000
+Connection ~ 9050 3000
+Wire Wire Line
+	9050 3000 9050 2700
+$Comp
+L Device:LED_Small D61
+U 1 1 5C870F0A
+P 9150 2000
+F 0 "D61" V 9250 1950 50  0000 R CNN
+F 1 "RED" V 9050 1950 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 2000 50  0001 C CNN
+F 3 "~" V 9150 2000 50  0001 C CNN
+	1    9150 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D60
+U 1 1 5C870F11
+P 9150 1700
+F 0 "D60" V 9250 1650 50  0000 R CNN
+F 1 "RED" V 9050 1650 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 1700 50  0001 C CNN
+F 3 "~" V 9150 1700 50  0001 C CNN
+	1    9150 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D59
+U 1 1 5C870F18
+P 9150 1400
+F 0 "D59" V 9250 1350 50  0000 R CNN
+F 1 "RED" V 9050 1350 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 1400 50  0001 C CNN
+F 3 "~" V 9150 1400 50  0001 C CNN
+	1    9150 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D58
+U 1 1 5C870F1F
+P 9150 1100
+F 0 "D58" V 9250 1050 50  0000 R CNN
+F 1 "RED" V 9050 1050 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 1100 50  0001 C CNN
+F 3 "~" V 9150 1100 50  0001 C CNN
+	1    9150 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D57
+U 1 1 5C870F26
+P 9150 800
+F 0 "D57" V 9250 750 50  0000 R CNN
+F 1 "RED" V 9050 750 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" V 9150 800 50  0001 C CNN
+F 3 "~" V 9150 800 50  0001 C CNN
+	1    9150 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 2400 9050 2100
+Wire Wire Line
+	9050 900  9150 900 
+Connection ~ 9050 2400
+Wire Wire Line
+	9150 1200 9050 1200
+Connection ~ 9050 1200
+Wire Wire Line
+	9050 1200 9050 900 
+Wire Wire Line
+	9150 1500 9050 1500
+Connection ~ 9050 1500
+Wire Wire Line
+	9050 1500 9050 1200
+Wire Wire Line
+	9150 1800 9050 1800
+Connection ~ 9050 1800
+Wire Wire Line
+	9050 1800 9050 1500
+Wire Wire Line
+	9150 2100 9050 2100
+Connection ~ 9050 2100
+Wire Wire Line
+	9050 2100 9050 1800
+Text Label 8550 3300 0    50   ~ 0
+COL8
+Wire Wire Line
+	8550 3300 8750 3300
+Wire Wire Line
+	5300 3300 5500 3300
+Wire Wire Line
+	4600 700  5250 700 
+Connection ~ 4600 700 
+Wire Wire Line
+	5250 700  5900 700 
+Connection ~ 5250 700 
+Wire Wire Line
+	5900 700  6550 700 
+Connection ~ 5900 700 
+Wire Wire Line
+	6550 700  7200 700 
+Connection ~ 6550 700 
+Wire Wire Line
+	7200 700  7850 700 
+Connection ~ 7200 700 
+Connection ~ 7850 700 
+Wire Wire Line
+	7850 700  8500 700 
+Wire Wire Line
+	8500 1000 7850 1000
+Connection ~ 4600 1000
+Connection ~ 5250 1000
+Wire Wire Line
+	5250 1000 4600 1000
+Connection ~ 5900 1000
+Wire Wire Line
+	5900 1000 5250 1000
+Connection ~ 6550 1000
+Wire Wire Line
+	6550 1000 5900 1000
+Connection ~ 7200 1000
+Wire Wire Line
+	7200 1000 6550 1000
+Connection ~ 7850 1000
+Wire Wire Line
+	7850 1000 7200 1000
+Wire Wire Line
+	4600 1300 5250 1300
+Connection ~ 4600 1300
+Connection ~ 5250 1300
+Wire Wire Line
+	5250 1300 5900 1300
+Connection ~ 5900 1300
+Wire Wire Line
+	5900 1300 6550 1300
+Connection ~ 6550 1300
+Wire Wire Line
+	6550 1300 7200 1300
+Connection ~ 7200 1300
+Wire Wire Line
+	7200 1300 7850 1300
+Connection ~ 7850 1300
+Wire Wire Line
+	7850 1300 8500 1300
+Wire Wire Line
+	8500 1600 7850 1600
+Connection ~ 4600 1600
+Connection ~ 5250 1600
+Wire Wire Line
+	5250 1600 4600 1600
+Connection ~ 5900 1600
+Wire Wire Line
+	5900 1600 5250 1600
+Connection ~ 6550 1600
+Wire Wire Line
+	6550 1600 5900 1600
+Connection ~ 7200 1600
+Wire Wire Line
+	7200 1600 6550 1600
+Connection ~ 7850 1600
+Wire Wire Line
+	7850 1600 7200 1600
+Wire Wire Line
+	4600 1900 5250 1900
+Connection ~ 4600 1900
+Connection ~ 5250 1900
+Wire Wire Line
+	5250 1900 5900 1900
+Connection ~ 5900 1900
+Wire Wire Line
+	5900 1900 6550 1900
+Connection ~ 6550 1900
+Wire Wire Line
+	6550 1900 7200 1900
+Connection ~ 7200 1900
+Wire Wire Line
+	7200 1900 7850 1900
+Connection ~ 7850 1900
+Wire Wire Line
+	7850 1900 8500 1900
+Wire Wire Line
+	8500 2200 7850 2200
+Connection ~ 4600 2200
+Connection ~ 5250 2200
+Wire Wire Line
+	5250 2200 4600 2200
+Connection ~ 5900 2200
+Wire Wire Line
+	5900 2200 5250 2200
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2200 5900 2200
+Connection ~ 7200 2200
+Wire Wire Line
+	7200 2200 6550 2200
+Connection ~ 7850 2200
+Wire Wire Line
+	7850 2200 7200 2200
+Wire Wire Line
+	4600 2500 5250 2500
+Connection ~ 4600 2500
+Connection ~ 5250 2500
+Wire Wire Line
+	5250 2500 5900 2500
+Connection ~ 5900 2500
+Wire Wire Line
+	5900 2500 6550 2500
+Connection ~ 6550 2500
+Wire Wire Line
+	6550 2500 7200 2500
+Connection ~ 7200 2500
+Wire Wire Line
+	7200 2500 7850 2500
+Connection ~ 7850 2500
+Wire Wire Line
+	7850 2500 8500 2500
+Connection ~ 5250 2800
+Wire Wire Line
+	5250 2800 5900 2800
+Connection ~ 5900 2800
+Wire Wire Line
+	5900 2800 6550 2800
+Connection ~ 6550 2800
+Wire Wire Line
+	6550 2800 7200 2800
+Connection ~ 7200 2800
+Wire Wire Line
+	7200 2800 7850 2800
+Connection ~ 7850 2800
+Wire Wire Line
+	7850 2800 8500 2800
+Wire Wire Line
+	8500 700  9150 700 
+Connection ~ 8500 700 
+Wire Wire Line
+	9150 1000 8500 1000
+Connection ~ 8500 1000
+Wire Wire Line
+	8500 1300 9150 1300
+Connection ~ 8500 1300
+Wire Wire Line
+	9150 1600 8500 1600
+Connection ~ 8500 1600
+Wire Wire Line
+	8500 1900 9150 1900
+Connection ~ 8500 1900
+Wire Wire Line
+	9150 2200 8500 2200
+Connection ~ 8500 2200
+Wire Wire Line
+	8500 2500 9150 2500
+Connection ~ 8500 2500
+Wire Wire Line
+	9150 2800 8500 2800
+Connection ~ 8500 2800
+Wire Wire Line
+	4400 2800 4600 2800
+Connection ~ 4600 2800
+Wire Wire Line
+	4600 2800 5250 2800
+Wire Wire Line
+	4500 2700 4500 3000
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA62B92
+P 2800 3500
+F 0 "#PWR0101" H 2800 3250 50  0001 C CNN
+F 1 "GND" H 2805 3327 50  0000 C CNN
+F 2 "" H 2800 3500 50  0001 C CNN
+F 3 "" H 2800 3500 50  0001 C CNN
+	1    2800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3500 2800 3300
+Wire Wire Line
+	1750 3300 1850 3300
+Wire Wire Line
+	2900 3300 2800 3300
+$Comp
+L power:GND #PWR0102
+U 1 1 5CA911C2
+P 3500 3500
+F 0 "#PWR0102" H 3500 3250 50  0001 C CNN
+F 1 "GND" H 3505 3327 50  0000 C CNN
+F 2 "" H 3500 3500 50  0001 C CNN
+F 3 "" H 3500 3500 50  0001 C CNN
+	1    3500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3500 3500 3300
+Wire Wire Line
+	2450 3300 2350 3300
+Wire Wire Line
+	3400 3300 3500 3300
+$Comp
+L power:GND #PWR0103
+U 1 1 5CAA9FBE
+P 4500 3600
+F 0 "#PWR0103" H 4500 3350 50  0001 C CNN
+F 1 "GND" H 4505 3427 50  0000 C CNN
+F 2 "" H 4500 3600 50  0001 C CNN
+F 3 "" H 4500 3600 50  0001 C CNN
+	1    4500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3600 4500 3500
+$Comp
+L power:GND #PWR0104
+U 1 1 5CAB6B51
+P 5150 3600
+F 0 "#PWR0104" H 5150 3350 50  0001 C CNN
+F 1 "GND" H 5155 3427 50  0000 C CNN
+F 2 "" H 5150 3600 50  0001 C CNN
+F 3 "" H 5150 3600 50  0001 C CNN
+	1    5150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3600 5150 3500
+$Comp
+L power:GND #PWR0105
+U 1 1 5CAC398B
+P 5800 3600
+F 0 "#PWR0105" H 5800 3350 50  0001 C CNN
+F 1 "GND" H 5805 3427 50  0000 C CNN
+F 2 "" H 5800 3600 50  0001 C CNN
+F 3 "" H 5800 3600 50  0001 C CNN
+	1    5800 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3600 5800 3500
+$Comp
+L power:GND #PWR0106
+U 1 1 5CAD090F
+P 6450 3600
+F 0 "#PWR0106" H 6450 3350 50  0001 C CNN
+F 1 "GND" H 6455 3427 50  0000 C CNN
+F 2 "" H 6450 3600 50  0001 C CNN
+F 3 "" H 6450 3600 50  0001 C CNN
+	1    6450 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3600 6450 3500
+$Comp
+L power:GND #PWR0107
+U 1 1 5CADD8D2
+P 7100 3600
+F 0 "#PWR0107" H 7100 3350 50  0001 C CNN
+F 1 "GND" H 7105 3427 50  0000 C CNN
+F 2 "" H 7100 3600 50  0001 C CNN
+F 3 "" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3600 7100 3500
+$Comp
+L power:GND #PWR0108
+U 1 1 5CAEAAAB
+P 7750 3600
+F 0 "#PWR0108" H 7750 3350 50  0001 C CNN
+F 1 "GND" H 7755 3427 50  0000 C CNN
+F 2 "" H 7750 3600 50  0001 C CNN
+F 3 "" H 7750 3600 50  0001 C CNN
+	1    7750 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3600 7750 3500
+$Comp
+L power:GND #PWR0109
+U 1 1 5CAF7C47
+P 8400 3600
+F 0 "#PWR0109" H 8400 3350 50  0001 C CNN
+F 1 "GND" H 8405 3427 50  0000 C CNN
+F 2 "" H 8400 3600 50  0001 C CNN
+F 3 "" H 8400 3600 50  0001 C CNN
+	1    8400 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3600 8400 3500
+$Comp
+L power:GND #PWR0110
+U 1 1 5CB04ED9
+P 9050 3600
+F 0 "#PWR0110" H 9050 3350 50  0001 C CNN
+F 1 "GND" H 9055 3427 50  0000 C CNN
+F 2 "" H 9050 3600 50  0001 C CNN
+F 3 "" H 9050 3600 50  0001 C CNN
+	1    9050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3600 9050 3500
+$Comp
+L power:GND #PWR0111
+U 1 1 5CB4B9D0
+P 1750 3500
+F 0 "#PWR0111" H 1750 3250 50  0001 C CNN
+F 1 "GND" H 1755 3327 50  0000 C CNN
+F 2 "" H 1750 3500 50  0001 C CNN
+F 3 "" H 1750 3500 50  0001 C CNN
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3500 1750 3300
+$Comp
+L power:GND #PWR0112
+U 1 1 5CB58BC6
+P 2450 3500
+F 0 "#PWR0112" H 2450 3250 50  0001 C CNN
+F 1 "GND" H 2455 3327 50  0000 C CNN
+F 2 "" H 2450 3500 50  0001 C CNN
+F 3 "" H 2450 3500 50  0001 C CNN
+	1    2450 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3500 2450 3300
+Text Label 2700 2900 0    50   ~ 0
+ROW2
+Text Label 2700 3000 0    50   ~ 0
+ROW4
+Text Label 2700 3100 0    50   ~ 0
+ROW6
+Text Label 2700 3200 0    50   ~ 0
+ROW8
+Text Label 3600 2900 2    50   ~ 0
+ROW1
+Text Label 3600 3000 2    50   ~ 0
+ROW3
+Text Label 3600 3100 2    50   ~ 0
+ROW5
+Text Label 3600 3200 2    50   ~ 0
+ROW7
+Wire Wire Line
+	3400 2900 3600 2900
+Wire Wire Line
+	3400 3000 3600 3000
+Wire Wire Line
+	3400 3100 3600 3100
+Wire Wire Line
+	3400 3200 3600 3200
+Wire Wire Line
+	2700 2900 2900 2900
+Wire Wire Line
+	2700 3000 2900 3000
+Wire Wire Line
+	2700 3100 2900 3100
+Wire Wire Line
+	2700 3200 2900 3200
+Text Label 2550 2900 2    50   ~ 0
+COL1
+Text Label 2550 3000 2    50   ~ 0
+COL3
+Text Label 2550 3100 2    50   ~ 0
+COL5
+Text Label 2550 3200 2    50   ~ 0
+COL7
+Wire Wire Line
+	2550 2900 2350 2900
+Wire Wire Line
+	2550 3000 2350 3000
+Wire Wire Line
+	2550 3100 2350 3100
+Wire Wire Line
+	2550 3200 2350 3200
+Text Label 1650 2900 0    50   ~ 0
+COL2
+Text Label 1650 3000 0    50   ~ 0
+COL4
+Text Label 1650 3100 0    50   ~ 0
+COL6
+Text Label 1650 3200 0    50   ~ 0
+COL7
+Wire Wire Line
+	1650 2900 1850 2900
+Wire Wire Line
+	1650 3000 1850 3000
+Wire Wire Line
+	1650 3100 1850 3100
+Wire Wire Line
+	1650 3200 1850 3200
+$EndSCHEMATC
